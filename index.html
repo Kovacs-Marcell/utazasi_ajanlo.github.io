@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kis Libák - Utazási ajánló</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="kepek/kep.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-globe-asia"></i>
+                <span>Kis Libák</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Főoldal</a></li>
+                <li><a href="rolunk.html">Rólunk</a></li>
+                <li><a href="uticelpontok.html">Úticélok</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+            <button id="darkModeToggle" class="dark-mode-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content animate-fadeIn">
+                <h1>Fedezd fel a világot velünk!</h1>
+                <p>Egyedi utazási élmények, személyre szabott ajánlatok</p>
+                <a href="uticelpontok.html" class="cta-button">Fedezd fel <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title">Miért válassz minket?</h2>
+            <div class="feature-grid">
+                <div class="feature-card animate-slideUp">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Személyre szabott tervezés</h3>
+                    <p>Egyedi igényekre szabott utazási tervek</p>
+                </div>
+                <div class="feature-card animate-slideUp">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Helyi élmények</h3>
+                    <p>Autentikus programok helyi idegenvezetőkkel</p>
+                </div>
+                <div class="feature-card animate-slideUp">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Biztonságos utazás</h3>
+                    <p>Teljes körű biztosítás és támogatás</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-destinations">
+            <h2 class="section-title">Népszerű úticélok</h2>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Tengerpart">
+                    <div class="destination-info">
+                        <h3>Thaiföld</h3>
+                        <p>Paradicsomi szigetek</p>
+                        <span class="price">290.000 Ft-tól</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Olaszország">
+                    <div class="destination-info">
+                        <h3>Olaszország</h3>
+                        <p>Gasztronómiai kaland</p>
+                        <span class="price">180.000 Ft-tól</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Hegyek">
+                    <div class="destination-info">
+                        <h3>Norvégia</h3>
+                        <p>Fjordok és hegyek</p>
+                        <span class="price">350.000 Ft-tól</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
